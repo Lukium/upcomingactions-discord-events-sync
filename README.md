@@ -161,7 +161,7 @@ python bot.py
   }
 ]
 ```
-
+---
 
 ## 🧠 Notes
 
