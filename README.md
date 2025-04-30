@@ -28,6 +28,8 @@ cd discord-event-sync-bot
 
 ### 2. Install Dependencies
 
+Tested on Python 3.11 and 3.12
+
 We recommend using [Poetry](https://python-poetry.org/) for managing dependencies.
 
 ```bash
