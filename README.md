@@ -108,7 +108,7 @@ python bot.py
 ## 📁 Project Files
 
 - `bot.py` — the main sync bot  
-- `created_events.json` — local registry of all events synced to Discord  
+- `created_events.json` — local registry of all events synced to Discord (Make sure to backup and restore this file if reinstalling the bot. Failing to do so will likely result in duplication of events) 
 - `.env` — stores your secrets (not included in version control)  
 
 ---
