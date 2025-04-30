@@ -17,7 +17,7 @@ This is a simple, one-way Discord bot that syncs upcoming events from Lukium’s
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone the Project
+### 1. Clone the Project (or just download bot.py and requirements.txt (if not using poetry) | pyproject.toml (if using poetry)
 
 ```bash
 git clone https://github.com/yourusername/discord-event-sync-bot.git
