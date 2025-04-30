@@ -118,7 +118,7 @@ python bot.py
 - This bot assumes your API returns **individual event instances**, even for recurring events.  
 - It uses the combination of `start|end|location` to uniquely identify events.  
 - It updates events only if their summary, description, or link change.  
-- Discord does not support recurring scheduled events — each recurrence must be posted as a separate scheduled event.  
+- Discord API does not support recurring scheduled events — each recurrence must be posted as a separate scheduled event.  
 
 ---
 
