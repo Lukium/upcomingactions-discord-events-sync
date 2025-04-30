@@ -1,6 +1,6 @@
 # 📅 Discord Event Sync Bot
 
-This is a simple, one-way Discord bot that syncs upcoming events from a JSON API to your Discord server as scheduled events. It ensures no duplicates, tracks updates, and respects Discord rate limits.
+This is a simple, one-way Discord bot that syncs upcoming events from the JSON API created by Lukium for Maryland area pro-democracy activites to your Discord server as scheduled events. It ensures no duplicates, tracks updates, and respects Discord rate limits.
 
 ---
 
