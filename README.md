@@ -1,6 +1,6 @@
 # 📅 Discord Event Sync Bot
 
-This is a simple, one-way Discord bot that syncs upcoming events from the JSON API created by Lukium for Maryland area pro-democracy activites to your Discord server as scheduled events. It ensures no duplicates, tracks updates, and respects Discord rate limits.
+This is a simple, one-way Discord bot that syncs upcoming events from Lukium’s Maryland-area pro-democracy JSON API into your Discord server as scheduled events. It avoids duplicates, updates existing events when details change, and respects Discord rate limits.
 
 ---
 
