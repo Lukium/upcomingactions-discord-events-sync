@@ -83,7 +83,7 @@ Create a `.env` file in your project root:
 ```
 DISCORD_TOKEN=your-bot-token-here
 DISCORD_GUILD_ID=your-discord-server-id
-EVENTS_API_URL=https://your-api-url.example.com/events
+EVENTS_API_URL=https://upcomingactions.americanmanifesto.news/api/events
 EVENTS_API_BEARER=your-bearer-token-for-api
 ```
 
