@@ -115,6 +115,54 @@ python bot.py
 
 ---
 
+## ✅ Expected API response
+
+- start and end must be ISO 8601 formatted strings with timezone offset.
+- recurring_id must be present even for non-recurring events to allow deduplication.
+- link, description, and location can be null or empty, but are preferred for richer Discord event data.
+
+```json
+[
+  {
+    "summary": "Example Event One",
+    "description": "This is a description of the event.",
+    "start": "2025-06-01T10:00:00-04:00",
+    "end": "2025-06-01T12:00:00-04:00",
+    "location": "123 Main St, Hometown, ST",
+    "link": "https://example.org/event/1",
+    "is_recurring": false,
+    "recurring_id": "abc123",
+    "recurrence": null,
+    "same_day": true
+  },
+  {
+    "summary": "Example Weekly Rally",
+    "description": "Join us for a recurring weekly rally.",
+    "start": "2025-06-03T17:00:00-04:00",
+    "end": "2025-06-03T18:00:00-04:00",
+    "location": "Central Park, Hometown, ST",
+    "link": "https://example.org/event/2",
+    "is_recurring": true,
+    "recurring_id": "weekly456",
+    "recurrence": ["RRULE:FREQ=WEEKLY;BYDAY=TU"],
+    "same_day": true
+  },
+  {
+    "summary": "Community Meeting",
+    "description": "",
+    "start": "2025-06-05T19:00:00-04:00",
+    "end": "2025-06-05T20:30:00-04:00",
+    "location": "Library Hall, 456 Elm St, Hometown, ST",
+    "link": null,
+    "is_recurring": false,
+    "recurring_id": "mtg789",
+    "recurrence": null,
+    "same_day": true
+  }
+]
+```
+
+
 ## 🧠 Notes
 
 - This bot assumes your API returns **individual event instances**, even for recurring events.  
